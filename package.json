@@ -1,0 +1,44 @@
+{
+  "name": "crypto-exchange-api",
+  "version": "1.0.0",
+  "description": "A cryptocurrency exchange api",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OctaconTechnologies/crypto-exchange-api.git"
+  },
+  "keywords": [
+    "exchange",
+    "crypto",
+    "bitcoin",
+    "ethereum",
+    "smart",
+    "contract"
+  ],
+  "author": "Harrys Jil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OctaconTechnologies/crypto-exchange-api/issues"
+  },
+  "homepage": "https://github.com/OctaconTechnologies/crypto-exchange-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3",
+    "mongoose": "^5.12.0",
+    "nodemon": "^2.0.7",
+    "rollbar": "^2.21.0",
+    "validatorjs": "^3.22.1"
+  }
+}
