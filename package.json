@@ -2,9 +2,9 @@
   "name": "crypto-exchange-api",
   "version": "1.0.0",
   "description": "A cryptocurrency exchange api",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "",
+    "start": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
