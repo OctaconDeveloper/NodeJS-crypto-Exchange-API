@@ -1,0 +1,7 @@
+const appDebugger = require("../logger");
+const ApiService = require("./apiservices");
+
+          
+module.exports = class EthereumService extends ApiService
+{
+}
